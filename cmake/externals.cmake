@@ -65,7 +65,7 @@ else()
     externalproject_add(
         ${LUA_PROJECT}
         GIT_REPOSITORY https://github.com/composit/lua.git
-        GIT_TAG d2e7e7d4d43ff9068b279a617c5b2ca2c2771676
+        GIT_TAG 57d3e82ef270b20dc976f3a6001439589c807793
         CMAKE_ARGS ${SANDBOX_CMAKE_ARGS}
         INSTALL_ARGS ${INST_ARGS}
     )
