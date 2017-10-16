@@ -92,7 +92,7 @@ add_dependencies(lua_cjson ${LUA_PROJECT})
 
 externalproject_add(
     lua_struct
-    GIT_REPOSITORY https://github.com/trink/struct.git
+    GIT_REPOSITORY https://github.com/composit/struct.git
     GIT_TAG b7e9b87d1ee36a5e22c6749be0959b45858beaad
     UPDATE_COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_CURRENT_LIST_DIR}/FindLua.cmake <SOURCE_DIR>/cmake
     CMAKE_ARGS ${SANDBOX_CMAKE_ARGS}
